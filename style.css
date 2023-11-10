@@ -1,0 +1,235 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background-color: #eee;
+    height: 90px;
+}
+body{
+    height: 100vh;
+    background-color: #e4e0e0;
+}
+.main-header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: #eee;
+}
+ul li{
+    list-style: none;
+}
+.links li{
+    margin-top: 30px;
+    margin-left: 30px;
+    font-size: 17px;
+    color:rgb(34, 33, 33);
+}
+
+.links li:hover{
+    color: black;
+    font-weight:normal;
+    cursor: pointer;
+}
+
+.links,
+.social{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.Portfolio-name{
+    font-size: x-large;
+    font-weight: bolder;
+    margin-right: 150px;
+    transform: translateY(15px);
+}
+.special{
+    color: #8a8181;
+}
+.social li{
+    font-size: 16px;
+    margin-right: 30px;
+    padding-top: 40px;
+}
+
+/*   start  section*/
+section{
+    background-color: #e4e0e0;
+    margin-top: -25px;
+}
+.main-section .name .name-center{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+    padding-top: 50px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin:20px 60px 30px 60px;
+}
+.my-image img{
+    max-width: 100%;
+}
+.services h3{
+    font-size: xx-large;
+    padding: 10px 0px 40px 0px;
+    font-weight: bold;
+}
+.service-title{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.service-title span{
+    font-size: large;
+    font-weight: bold;
+}
+.service-title span:first-child{
+    background-color: white;
+    padding: 10px;
+}
+.service-title span:last-child{
+    margin-left: 20px;
+}
+.service-one p,
+.service-two p ,
+.service-three p{
+    padding: 10px 20px 20px 0px;
+    color: #313131;
+}
+.details{
+    width: fit-content;
+    display: flex;
+    width: 500px;
+    flex-wrap: wrap;
+}
+.first-details{
+    display: block;
+}
+.first-details h2{
+    font-weight: bolder;
+    padding: 10px 0px 30px 0px;
+    font-size:xx-large;
+}
+.first-details p,
+.second-details p{
+    color: #515151;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.second-details button{
+    width: 130px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    opacity: 0.9;
+}
+.thrid-details{
+    display: flex;
+    margin-top: 60px;
+}
+.thrid-details .experiencr-no  ,
+.thrid-details .client-no{
+    display: block;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.thrid-details .client-no{
+    margin-left: 30px;
+}
+.thrid-details .experiencr-no .text  ,
+.thrid-details .client-no .text{
+    display: block;
+    font-weight: normal;
+    font-size: medium;
+    color: #515151;
+}
+
+@media(max-width:1200px){
+.container{
+    margin: 20px;
+    flex-wrap:wrap ;
+    justify-content:space-around;
+}
+.my-image img{
+    max-width: 100%;
+}
+.Portfolio-name{
+    margin-right: 60px;
+}
+/* .main-section .name .name-center{
+    margin: 0px;
+    padding: 0px;
+} */
+.details{
+    width: fit-content;
+}
+
+}
+
+@media(min-width:767px) and (max-width:1200px){
+    .main-header{
+        justify-content: space-around;
+    }
+    .links li{
+        margin-left: 15px;
+    }
+    .social li{
+        margin-right:15px;
+    }
+    .Portfolio-name{
+        margin-left: 20px;
+    }
+}
+@media(max-width:767px){
+    .links li{
+        margin:  15px 15px 0px 0px ;
+    }
+    .social li{
+        margin: 0px 10px 10px 0px ;
+        
+    }
+    .Portfolio-name{
+        margin: 0px 10px 10px 0px ;
+        font-size:larger;
+        font-weight: 200px;
+    }
+    .main-header{
+        flex-wrap: wrap;
+    }
+    .name-center{
+        text-align: center;
+    }
+    header{
+        height: 100px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
